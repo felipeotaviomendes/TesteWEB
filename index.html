@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta chaset="utf-8">
+	<link rel="stylesheet" type="text/css" href="styles/principal.css">
+
+	<title>Felipe Mendes</title>
+</head>
+
+<body onload="efeito('dadospessoais')">
+	<script type="text/javascript" src="scripts/principal.js"></script>
+	<script type="text/javascript"> efeito('dadospessoais');</script>
+
+	<div class="centralizar">
+		<nav class="menu">
+			<ul>
+				<li><a href="#" onclick="javascript: efeito('dadospessoais');">Dados Pessoais</a></li>
+				<li><a href="#" onclick="javascript: efeito('dadosacademicos');">Dados Academicos</a></li>
+				<li><a href="#" onclick="javascript: efeito('historicoprofissional');">Histórico Profissional</a></li>
+				<li><a href="#" onclick="javascript: efeito('atividadespraticas');">Atividades em prática</a></li>
+				<li><a href="#" onclick="javascript: efeito('contato');">Contato</a></li>
+			</ul>
+		</nav>
+	</div>
+
+	<div id="dadospessoais" class = "centralizar">
+		<title>Felipe Mendes</title>
+		<h1>Dados Pessoais</h1>
+		<img src="images/usuario.png" width="20%" alt="Erro ao carregar imagem" />
+
+		<p>Nome: Felipe Otávio Mendes de Oliveira</p>
+		<p>Idade: 20 Anos</p>
+	</div>
+
+	<div id="dadosacademicos" class = "centralizar">
+		<title>Felipe Mendes</title>
+		<h1>Dados Academicos</h1>
+	</div>
+
+	<div id="historicoprofissional" class = "centralizar">
+		<title>Felipe Mendes</title>
+		<h1>Historico Profissional</h1>
+	</div>
+
+	<div id="atividadespraticas" class = "centralizar">
+		<title>Felipe Mendes</title>
+		<h1>Atividades Práticas</h1>
+	</div>
+
+	<div id="contato" class = "centralizar">
+		<title>Felipe Mendes</title>
+		<h1>Contato</h1>
+		<form>
+			<p>Nome:<input type="text" name="feedback" required></p>
+
+			<p>Fone:<input type="text" name="feedback" required></p>
+
+			<p>E-mail:<input type="text" name="feedback" required></p>
+
+			<p>Motivo do contato </p>
+			<select name="motivocontato">
+				<option value="contrato_trabalho">Contrato de trabalho</option>
+				<option value="emprego">Emprego</option>
+				<option value="outros">Outros</option>
+			</select>
+
+			
+
+			<p>Comentários Gerais:</p>
+			<textarea rows="3" cols="60" placeholder="Digite seu texto aqui"></textarea>
+
+
+			<br><input type="submit" value="Enviar">
+
+			<table align="center">
+  				<tr>
+    				<th>Email para Contato</th>
+  				</tr>
+  				<tr>
+    				<td>felipeotaviomendes@gmail.com</td>
+  				</tr>
+			</table>
+
+		</form>
+
+
+	</div>
+
+	<div class="centralizar">
+		<footer class="rodape">
+			<h4>IFSP - Câmpus Hortolândia</h4>
+		</footer>
+	</div>
+
+</body>
+</html>
